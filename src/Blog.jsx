@@ -19,7 +19,6 @@ import {
 function Blog() {
   const [posts, setPosts] = useState([]);
   const [selectedPost, setSelectedPost] = useState(null);
-  const [value, setValue] = useState("");
   const [page, setPage] = useState(1);
   const [limit, setLimit] = useState(10);
   const [dialogOpen, setDialogOpen] = useState(false);
